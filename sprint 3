@@ -1,0 +1,49 @@
+SWE6733 – Emerging Software Engineering Processes
+Sprint #3 
+Dr. Reza Parizi
+Group 2:
+Matt Decker
+Devika Kandel Neupane
+Ifeanyi Okoye
+Cameron Page
+
+Sprint #3 – Final Report
+Github: https://github.com/Decker-Matthew-R/AccessAdventureApp
+This sprint was more effective than our initial sprint and we were able to accomplish a lot more work in the given time period. This was largely due to familiarization with the code base and the tech stack. Unfortunately, we did encounter a few critical errors during the development process. The biggest error we encountered was a buildup of excess dependencies needed for the development environment. As production went on and we learned more about our tech stack, we switched a lot of the dependencies that we were using in order to create a more comprehensive user experience. This led to a lot of excess, unused dependencies that ultimately slowed the application down to a crawl. A lot of extra work was put into finding and eliminating the dependencies we no longer needed. Unfortunately, we are contemplating creating a new git hub in order to eliminate some of these dependencies. We would consider this phase the “walk” phase of our development journey and more progress was made before. Our sprints and mob session can be found on our YouTube channel listed below. At this point, we have a functional application that is ready to be polished for final production. We continued to run into additional issues with the testing of our application and the testing had to be completed manually due to issues getting the tests to automatically compile. You can find a recap of our sprint in the below report.
+Our sprint forecast is located below: https://github.com/campage/access_adventure_app.git
+	•	Sprint Forecast: 8 Story Points Complete
+	•	Initial Profile Setup (3 Story Points - Ongoing)
+	•	Password Reset (3 Story Points)
+	•	Profile Deletion (3 Story Points)
+	•	Secure Information (7 Story Points)
+	•	Compatible with Android Devices (1 Story Point –)
+	•	Decomposition of Stories: Our Stories were decomposed into tasks and each task is assigned to people. A summary of those tasks can be found below: 
+	•	Cameron: Secure Information 
+	•	Matt: Testing/Verification/Initial Profile Setup
+	•	Ifeanyi: Messenger/Chat Screen/Profile Deletion/Password Reset
+	•	Devika: Matching screen/Profile Deletion
+
+As stated in our previous report, we had the structure of our application completed and this sprint was designed to polish some of those features to make a more user friendly experience. Our stories were broken down into individual tasks that could be completed and would represent the completion of certain story points. As in our previous sprint, we discovered hidden tasks that had to be completed in order to complete certain user stories. Testing again proved to be a challenge and a major time vacuum. These tasks are also decomposed on our Azure project page:  https://dev.azure.com/AccessAdventureApp/AccessAdventureApp%20Project/_workitems/edit/26
+
+	•	Kanban Board: 
+	•	This can be found on our Azure link: https://dev.azure.com/AccessAdventureApp/AccessAdventureApp%20Project/_workitems/edit/26
+	•	Sprint Burndown Chart:
+	•	 This can be found on our Azure link: https://dev.azure.com/AccessAdventureApp/AccessAdventureApp%20Project/_workitems/edit/26
+
+
+	•	Daily Scrums:
+	•	We conducted several scrums during the third sprint. We did have an error that required us to fix our development environment and the dependencies we used for this project. This resulted in a significant amount of time. We have provided evidence of one of our scrums on YouTube. The link is: https://youtu.be/Jt0rAs-dV6s 
+	•	Mob Code Session:
+	•	We did a mob code session on the creation of user login logic. We created login logic that will bypass the login screen and jump to the home screen if the user is already logged in. Due to schedule conflicts and work schedules, it was difficult to perform live mob sessions. Our mob session link can be found at: https://youtu.be/m74FcwI8qvY 
+	•	Unit Testing: 
+	•	We used a test-driven development methodology when creating our application, however we quickly ran into several problems when using tests in our development environment. It became such an issue, that it will be addressed in it’s own section of this write up below.
+	•	Sprint Review: Group 2 conducted a final sprint review, and it can be found at the following link: https://youtu.be/qW32gkUHJcU
+	•	CI System: We encountered several issues setting up a CI system to automatically compile our code and check for errors. We assume this is linked to our issue running automatic tests with our code base. As we have done in previous sprints, we had to manually test the application to ensure that bugs were not present. This created a rather large extra task that was time intensive. Given the issues we experienced, Group 2 was able to still perform testing on the application and this is a testament to the hard work of the group.
+
+
+	•	Working Software: All components of our software are currently functional and have been manually tested.
+
+Unit Testing Issues:
+We continued to have issues with unit testing the application automatically. I believe that due to our issue with excess dependencies, we have a compatibility issue that is not allowing our automatic test suite to run with out failure. Our entire test suite is uploaded to git hub. We had to resort to manually testing the application for bugs and this presented a huge challenge to our time and forced us to pull off of other issues to work on testing. We were able to fully test our application manually, and this is a testament to the hard work and dedication of the team. These same issues also spilled into our CI environment and failed our automatic test suite.
+Sprint 1 in Review
+This sprint was a great learning opportunity and allowed us to really get to know the tech stack. We were able to make judgement calls on better, more efficient ways of working with our tech stack to produce a better application for the end user. This sprint represented the team gaining a deeper understanding of what we are doing and it will show in the final iteration of our product. We were able to fight through issues with testing and the deployment of our CI  and still deliver a functional product. I believe that our final product will be better as a result of overcoming the issues that we faced in sprint 3.
