@@ -8,7 +8,7 @@ Ifeanyi Okoye
 Cameron Page
 
 Sprint #3 – Final Report
-Github: https://github.com/Decker-Matthew-R/AccessAdventureApp
+Github: https://github.com/campage/access_adventure_app.git
 This sprint was more effective than our initial sprint and we were able to accomplish a lot more work in the given time period. This was largely due to familiarization with the code base and the tech stack. Unfortunately, we did encounter a few critical errors during the development process. The biggest error we encountered was a buildup of excess dependencies needed for the development environment. As production went on and we learned more about our tech stack, we switched a lot of the dependencies that we were using in order to create a more comprehensive user experience. This led to a lot of excess, unused dependencies that ultimately slowed the application down to a crawl. A lot of extra work was put into finding and eliminating the dependencies we no longer needed. Unfortunately, we are contemplating creating a new git hub in order to eliminate some of these dependencies. We would consider this phase the “walk” phase of our development journey and more progress was made before. Our sprints and mob session can be found on our YouTube channel listed below. At this point, we have a functional application that is ready to be polished for final production. We continued to run into additional issues with the testing of our application and the testing had to be completed manually due to issues getting the tests to automatically compile. You can find a recap of our sprint in the below report.
 Our sprint forecast is located below: https://github.com/campage/access_adventure_app.git
 	•	Sprint Forecast: 8 Story Points Complete
